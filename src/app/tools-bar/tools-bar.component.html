@@ -1,0 +1,5 @@
+<div class="card-container mt-2">
+  <div *ngFor="let item of navigationItems" class="card card-small" (click)="item.action()">
+    <span>{{ item.text }}</span>
+  </div>
+</div>
